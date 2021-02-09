@@ -277,18 +277,10 @@ def playGame(wordList):
         elif response not in 'nre':
             print("Invalid command.")
 
-
-
         else:
             break
 
    
-
-
-
-#
-# Build data structures used for entire session and play game
-#
 if __name__ == '__main__':
     wordList = loadWords()
     playGame(wordList)
